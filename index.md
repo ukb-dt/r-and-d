@@ -1633,9 +1633,9 @@ This edge isn't superiority—it's augmentation. Nietzsche's hammer tested the i
 
 We have local minima in the following periods: 
 
-- November 2017 (Koko)
-- September 2021 (Mona)
-- July 2025 (Sama)
+- November 2017 (Ramuk)
+- September 2021 (Ejigadn)
+- July 2025 (Amas)
 
 [Determined](https://en.wikipedia.org/wiki/Determined:_A_Science_of_Life_Without_Free_Will) by thermodynamics, not psychosocial issues!
 
