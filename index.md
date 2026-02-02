@@ -1642,6 +1642,16 @@ From our ongoing exploration of the LAT (Loss, Altitude, Temperature) frameworkâ
     <img src="ukhona/2024.jpg" alt="2024" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
     <img src="ukhona/2025.jpg" alt="2025" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
     <img src="ukhona/2026.jpg" alt="2026" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
+
+  <p>
+  Miles/Day vs. Years 2016 - 2026
+    </p>
+</div>
+
+
+<div align="center">
+  <img src="ukhona/weight.jpg" alt="Weight Over Time Graph" width="800">
+  <p><em>Weight tracking from 2016-2025</em></p>
 </div>
 
 This isn't just a quantified-self tool; it's a bridge from Dionysian frenzy (high-variance user behavior) to Apollonian artifact (stable digital twin). It enforces the 20W brain constraint by offloading computation, allowing iterative annealing across cycles without metabolic burnout. Let's break it down systematically.
