@@ -1642,12 +1642,8 @@ From our ongoing exploration of the LAT (Loss, Altitude, Temperature) frameworkâ
     <img src="ukhona/2024.jpg" alt="2024" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
     <img src="ukhona/2025.jpg" alt="2025" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
     <img src="ukhona/2026.jpg" alt="2026" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
-</div>
+</div>    
 
-  <p>
-  Miles/Day vs. Years 2016 - 2026
-    </p>
-</div>
 
 
 <div align="center">
