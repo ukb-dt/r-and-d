@@ -1631,6 +1631,14 @@ This edge isn't superiority—it's augmentation. Nietzsche's hammer tested the i
 > *You be the judge!*    
 > -- Ily Zosima
 
+We have local minima in the following periods: 
+
+- November 2017 (Koko)
+- September 2021 (Mona)
+- July 2025 (Sama)
+
+[Determined](https://en.wikipedia.org/wiki/Determined:_A_Science_of_Life_Without_Free_Will) by thermodynamics, not psychosocial issues!
+
 From our ongoing exploration of the LAT (Loss, Altitude, Temperature) framework—mapping manic-depressive cycles, dissipative structures, and annealing processes onto human experience—the Ukubona Engine emerges as the practical, computational embodiment of these ideas. Named perhaps after the Zulu word "ukubona" (to see or perceive), it represents a "seeing engine": a system that observes, digests, and optimizes the user's embodied energy flows, turning raw biometric data into predictive trajectories and sovereign insights. Based on the architecture we've sketched across our dialogue (from wearable proxies to Flask-based digestion), I'll explore its details here: core components, data pipeline, loss mechanics, deployment, potential extensions, and philosophical ties to the broader LAT ledger.
 
 
