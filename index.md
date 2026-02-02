@@ -1642,6 +1642,8 @@ We have local minima in the following periods:
 From our ongoing exploration of the LAT (Loss, Altitude, Temperature) framework—mapping manic-depressive cycles, dissipative structures, and annealing processes onto human experience—the Ukubona Engine emerges as the practical, computational embodiment of these ideas. Named perhaps after the Zulu word "ukubona" (to see or perceive), it represents a "seeing engine": a system that observes, digests, and optimizes the user's embodied energy flows, turning raw biometric data into predictive trajectories and sovereign insights. Based on the architecture we've sketched across our dialogue (from wearable proxies to Flask-based digestion), I'll explore its details here: core components, data pipeline, loss mechanics, deployment, potential extensions, and philosophical ties to the broader LAT ledger.
 
 
+## $\dfrac{d^2y_x}{dt^2}$
+
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1200px; margin: 2rem auto; padding: 0 20px;">
     <img src="ukhona/2015.jpg" alt="2015" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
     <img src="ukhona/2016.jpg" alt="2016" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
@@ -1658,6 +1660,7 @@ From our ongoing exploration of the LAT (Loss, Altitude, Temperature) framework�
 </div>    
 
 
+## $\int y_x \,dt + \epsilon_x \,t + C_$
 
 <div align="center">
   <img src="ukhona/weight.jpg" alt="Weight Over Time Graph" width="800">
