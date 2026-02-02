@@ -1667,6 +1667,84 @@ From our ongoing exploration of the LAT (Loss, Altitude, Temperature) frameworkâ
   <p><em>Weight tracking from 2016-2025</em></p>
 </div>
 
+```py
+import matplotlib.pyplot as plt
+import numpy as np
+from datetime import datetime
+import matplotlib.dates as mdates
+
+# Create figure
+fig, ax = plt.subplots(figsize=(14, 8))
+
+# Define the time points based on the original graph
+dates = [
+    '2016-11-01', '2017-05-01', '2017-11-01', '2018-05-01', '2018-11-01',
+    '2019-05-01', '2019-11-01', '2020-05-01', '2020-11-01', '2021-05-01',
+    '2021-11-01', '2022-05-01', '2022-11-01', '2023-05-01', '2023-11-01',
+    '2024-05-01', '2024-11-01', '2025-05-01', '2025-11-01'
+]
+
+# Approximate weight values from the graph
+weights = [216, 215, 170, 177, 190, 175, 205, 220, 198, 200, 187, 180, 175, 
+           200, 212, 235, 220, 240, 170, 200]
+
+# Convert dates to datetime objects
+date_objects = [datetime.strptime(d, '%Y-%m-%d') for d in dates]
+
+# Invert the scale: max weight (240) -> min activity (0), min weight (170) -> max activity (70)
+# Formula: inverted = (max - weight) = 240 - weight, then normalize to 0-70 scale
+min_weight = 170
+max_weight = 240
+weight_range = max_weight - min_weight
+
+# Create inverted values (70 point scale)
+activity_mood = [(max_weight - w) for w in weights]
+
+# Plot
+ax.plot(date_objects, activity_mood, linewidth=2, color='#2E7D32', marker='o', markersize=5)
+ax.fill_between(date_objects, activity_mood, alpha=0.3, color='#66BB6A')
+
+# Formatting
+ax.set_xlabel('Date', fontsize=12, fontweight='bold')
+ax.set_ylabel('Activity & Mood Index (units)', fontsize=12, fontweight='bold')
+ax.set_title('Physical Activity & Mood Over Time (2016-2025)', fontsize=16, fontweight='bold', pad=20)
+
+# Set y-axis limits to maintain the inverted 70-point scale
+ax.set_ylim(0, 70)
+
+# Format x-axis
+ax.xaxis.set_major_formatter(mdates.DateFormatter('%b %Y'))
+ax.xaxis.set_major_locator(mdates.MonthLocator(interval=6))
+plt.xticks(rotation=45, ha='right')
+
+# Add grid
+ax.grid(True, alpha=0.3, linestyle='--')
+
+# Add statistics box
+stats_text = f"Highest: 70 units\nLowest: 0 units\nCurrent: {activity_mood[-1]:.0f} units (Dec 2025)"
+ax.text(0.02, 0.98, stats_text, transform=ax.transAxes, 
+        fontsize=10, verticalalignment='top',
+        bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
+
+# Add caption
+fig.text(0.5, 0.02, 'Inverted scale: High weight = Low activity/mood, Low weight = High activity/mood', 
+         ha='center', fontsize=11, style='italic')
+
+plt.tight_layout()
+plt.savefig('/home/claude/activity_mood_inverted.png', dpi=300, bbox_inches='tight')
+plt.close()
+
+print("Graph created successfully!")
+```
+
+
+### Motion-Emotion Rollercoaster
+
+<div align="center">
+  <img src="ukhona/motion-emotion.jpg" alt="Weight Over Time Graph" width="800">
+  <p><em>Weight tracking from 2016-2025</em></p>
+</div>
+
 This isn't just a quantified-self tool; it's a bridge from Dionysian frenzy (high-variance user behavior) to Apollonian artifact (stable digital twin). It enforces the 20W brain constraint by offloading computation, allowing iterative annealing across cycles without metabolic burnout. Let's break it down systematically.
 
 ## 1. Overview and Purpose
