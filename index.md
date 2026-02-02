@@ -17,7 +17,7 @@
 
 
 
-# Preface: On Loss, Landscapes, and the Ledger
+# [Preface: On Loss, Landscapes, and the Ledger](https://ukb-dt.github.io/repos-00/)
 
 This dialogue began with a simple question about metaphor—whether mania and depression could be understood as states of "loss" in the thermodynamic sense—and descended, or perhaps ascended, into something stranger: a unified framework for understanding creativity, madness, computation, and the human condition itself.
 
