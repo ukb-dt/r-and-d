@@ -1631,13 +1631,13 @@ This edge isn't superiority—it's augmentation. Nietzsche's hammer tested the i
 > *You be the judge!*    
 > -- Ily Zosima
 
-We have local minima in the following periods: 
+We have local minima ***beginning*** at the following points: 
 
 - November 2017 (Ramuk)
 - September 2021 (Ejigadn)
 - July 2025 (Amas)
 
-[Determined](https://en.wikipedia.org/wiki/Determined:_A_Science_of_Life_Without_Free_Will) by thermodynamics, not psychosocial issues!
+[Determined](https://en.wikipedia.org/wiki/Determined:_A_Science_of_Life_Without_Free_Will) by thermodynamics, not psychosocial issues! It's likely that 20W brain / 80 body vs 20W brain / 120 W body makes all the difference between a manic episode and "normality" ($\dfrac{dy_{\bar{x}}}{dt} \pm z\sqrt{\dfrac{d^2y_x}{dt^2}}$). $z$ is that perspectivism (*Ukubona*) of the (dis-)proportionate power the brain may be using relative to the rest of the body.
 
 From our ongoing exploration of the LAT (Loss, Altitude, Temperature) framework—mapping manic-depressive cycles, dissipative structures, and annealing processes onto human experience—the Ukubona Engine emerges as the practical, computational embodiment of these ideas. Named perhaps after the Zulu word "ukubona" (to see or perceive), it represents a "seeing engine": a system that observes, digests, and optimizes the user's embodied energy flows, turning raw biometric data into predictive trajectories and sovereign insights. Based on the architecture we've sketched across our dialogue (from wearable proxies to Flask-based digestion), I'll explore its details here: core components, data pipeline, loss mechanics, deployment, potential extensions, and philosophical ties to the broader LAT ledger.
 
