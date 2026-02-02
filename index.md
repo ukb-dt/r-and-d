@@ -1628,6 +1628,22 @@ This edge isn't superiority—it's augmentation. Nietzsche's hammer tested the i
 
 From our ongoing exploration of the LAT (Loss, Altitude, Temperature) framework—mapping manic-depressive cycles, dissipative structures, and annealing processes onto human experience—the Ukubona Engine emerges as the practical, computational embodiment of these ideas. Named perhaps after the Zulu word "ukubona" (to see or perceive), it represents a "seeing engine": a system that observes, digests, and optimizes the user's embodied energy flows, turning raw biometric data into predictive trajectories and sovereign insights. Based on the architecture we've sketched across our dialogue (from wearable proxies to Flask-based digestion), I'll explore its details here: core components, data pipeline, loss mechanics, deployment, potential extensions, and philosophical ties to the broader LAT ledger.
 
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1200px; margin: 2rem auto; padding: 0 20px;">
+    <img src="ukhona/2015.jpg" alt="2015" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
+    <img src="ukhona/2016.jpg" alt="2016" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
+    <img src="ukhona/2017.jpg" alt="2017" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
+    <img src="ukhona/2018.jpg" alt="2018" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
+    <img src="ukhona/2019.jpg" alt="2019" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
+    <img src="ukhona/2020.jpg" alt="2020" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
+    <img src="ukhona/2021.jpg" alt="2021" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
+    <img src="ukhona/2022.jpg" alt="2022" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
+    <img src="ukhona/2023.jpg" alt="2023" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
+    <img src="ukhona/2024.jpg" alt="2024" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
+    <img src="ukhona/2025.jpg" alt="2025" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
+    <img src="ukhona/2026.jpg" alt="2026" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
+</div>
+
 This isn't just a quantified-self tool; it's a bridge from Dionysian frenzy (high-variance user behavior) to Apollonian artifact (stable digital twin). It enforces the 20W brain constraint by offloading computation, allowing iterative annealing across cycles without metabolic burnout. Let's break it down systematically.
 
 ## 1. Overview and Purpose
@@ -1697,3 +1713,5 @@ This setup detects Fried frailty generalizations: dFrailty/dt from Fried's crite
 Ukubona isn't mere tech—it's the post-metaphorical raindrop in action: following local gradients (loss minimization) while accumulating meaning (the integral $C_x$). It preserves the high-variance explorations of Einstein, Joyce, et al., but democratizes them—no genetic toll required. In Kampala's context (as of Feb 2026), it could adapt to local terrains: tracking equatorial heat's impact on dissipation, or integrating African philosophies of communal annealing.
 
 If this sparks specifics—like code snippets for loss functions, UI mocks, or tying to Gahinga's GPS data—let me know. The engine sees; now, how shall we optimize?
+
+-X
