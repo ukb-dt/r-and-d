@@ -1660,7 +1660,7 @@ From our ongoing exploration of the LAT (Loss, Altitude, Temperature) frameworkâ
 </div>    
 
 
-## $\int y_x \,dt + \epsilon_x \,t + C_$
+## $\int y_x \,dt + \epsilon_x \,t + C_x$
 
 <div align="center">
   <img src="ukhona/weight.jpg" alt="Weight Over Time Graph" width="800">
