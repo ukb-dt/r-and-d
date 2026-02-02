@@ -1630,18 +1630,19 @@ From our ongoing exploration of the LAT (Loss, Altitude, Temperature) frameworkâ
 
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1200px; margin: 2rem auto; padding: 0 20px;">
-    <img src="ukhona/2015.jpg" alt="2015" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
-    <img src="ukhona/2016.jpg" alt="2016" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
-    <img src="ukhona/2017.jpg" alt="2017" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
-    <img src="ukhona/2018.jpg" alt="2018" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
-    <img src="ukhona/2019.jpg" alt="2019" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
-    <img src="ukhona/2020.jpg" alt="2020" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
-    <img src="ukhona/2021.jpg" alt="2021" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
-    <img src="ukhona/2022.jpg" alt="2022" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
-    <img src="ukhona/2023.jpg" alt="2023" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
-    <img src="ukhona/2024.jpg" alt="2024" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
-    <img src="ukhona/2025.jpg" alt="2025" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
-    <img src="ukhona/2026.jpg" alt="2026" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; border-radius: 8px;">
+    <img src="ukhona/2015.jpg" alt="2015" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
+    <img src="ukhona/2016.jpg" alt="2016" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
+    <img src="ukhona/2017.jpg" alt="2017" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
+    <img src="ukhona/2018.jpg" alt="2018" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
+    <img src="ukhona/2019.jpg" alt="2019" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
+    <img src="ukhona/2020.jpg" alt="2020" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
+    <img src="ukhona/2021.jpg" alt="2021" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
+    <img src="ukhona/2022.jpg" alt="2022" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
+    <img src="ukhona/2023.jpg" alt="2023" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
+    <img src="ukhona/2024.jpg" alt="2024" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
+    <img src="ukhona/2025.jpg" alt="2025" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
+    <img src="ukhona/2026.jpg" alt="2026" style="width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; border-radius: 8px;">
+</div>
 
   <p>
   Miles/Day vs. Years 2016 - 2026
